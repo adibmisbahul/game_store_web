@@ -1,0 +1,35 @@
+.navside {
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+    background-color: #191b25;
+    margin-left: 20%;
+}
+
+.maincontent {
+    width: 90%;
+    height: 50vh;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    border-radius: 1vw;
+    background: hsla(257, 68%, 54%, 1);
+    background: linear-gradient(180deg, hsla(257, 68%, 54%, 1) 0%, hsla(236, 67%, 55%, 1) 19%, hsla(279, 34%, 47%, 1) 78%);
+    background: -moz-linear-gradient(180deg, hsla(257, 68%, 54%, 1) 0%, hsla(236, 67%, 55%, 1) 19%, hsla(279, 34%, 47%, 1) 78%);
+    background: -webkit-linear-gradient(180deg, hsla(257, 68%, 54%, 1) 0%, hsla(236, 67%, 55%, 1) 19%, hsla(279, 34%, 47%, 1) 78%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#6638D9", endColorstr="#3D47D9", GradientType=1);
+}
+
+.homesa {
+    display: flex;
+    width: 100%;
+}
+
+.sideleftHome {
+    width: 20%;
+    height: 100vh;
+}
+
+.siderightHome {
+    width: 80%;
+    height: 20vh;
+}
