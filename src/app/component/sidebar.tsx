@@ -1,6 +1,12 @@
 import Image from "next/image";
 
 import "./sidebar.css";
+import gameIcon from "../assets/game.svg";
+import dashboardIcon from "../assets/dashboard.svg";
+import favoriteIcon from "../assets/favorites.svg";
+import comingIcon from "../assets/clock.svg";
+import setingIcon from "../assets/settings.svg";
+import chartIcon from "../assets/cart.svg";
 
 import Logo from "../assets/logo.png";
 
@@ -15,6 +21,32 @@ export default function sideBar() {
           height={150}
           alt="Picture of the author"
         />
+      </div>
+      <div>
+        <div className="flex">
+          <Image src={dashboardIcon} width={25} height={25} alt="haloo" />
+          <h1>Dashboard</h1>
+        </div>
+        <div className="flex">
+          <Image src={gameIcon} width={25} height={25} alt="haloo" />
+          <h1>Game Store</h1>
+        </div>
+        <div className="flex">
+          <Image src={chartIcon} width={25} height={25} alt="haloo" />
+          <h1>My Games</h1>
+        </div>
+        <div className="flex">
+          <Image src={favoriteIcon} width={25} height={25} alt="haloo" />
+          <h1>Favorites</h1>
+        </div>
+        <div className="flex">
+          <Image src={comingIcon} width={25} height={25} alt="haloo" />
+          <h1>Coming Soon</h1>
+        </div>
+        <div className="flex">
+          <Image src={setingIcon} width={25} height={25} alt="haloo" />
+          <h1>Settings</h1>
+        </div>
       </div>
     </div>
   );

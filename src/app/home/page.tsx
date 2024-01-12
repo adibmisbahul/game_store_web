@@ -11,7 +11,10 @@ export default function Home() {
       </div>
       <div className="siderightHome">
         <Navbar/>
-        <div className="maincontent"></div>
+        <div className="maincontent">
+          <div className="leftcontent"></div>
+          <div className="rightcontent"></div>
+        </div>
       </div>
     </div>
   );

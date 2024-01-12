@@ -13,7 +13,8 @@
 
 .navbar input{
     width: 70%;
-    height: 6vh;
+    height: 7vh;
+    border: none;
     padding-left: 5%;
     margin-left: 5vw;
     border-radius: 1vh;
