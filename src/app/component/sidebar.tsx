@@ -13,7 +13,7 @@ import Logo from "../assets/logo.png";
 export default function sideBar() {
   return (
     <div className="sidebar12">
-      <div>
+      <div className="uplogo">
         <Image
           className="logo"
           src={Logo}
@@ -22,28 +22,28 @@ export default function sideBar() {
           alt="Picture of the author"
         />
       </div>
-      <div>
-        <div className="flex">
+      <div className="downnavbar">
+        <div className="flex gap-5">
           <Image src={dashboardIcon} width={25} height={25} alt="haloo" />
           <h1>Dashboard</h1>
         </div>
-        <div className="flex">
+        <div className="flex gap-5">
           <Image src={gameIcon} width={25} height={25} alt="haloo" />
           <h1>Game Store</h1>
         </div>
-        <div className="flex">
+        <div className="flex gap-5">
           <Image src={chartIcon} width={25} height={25} alt="haloo" />
           <h1>My Games</h1>
         </div>
-        <div className="flex">
+        <div className="flex gap-5">
           <Image src={favoriteIcon} width={25} height={25} alt="haloo" />
           <h1>Favorites</h1>
         </div>
-        <div className="flex">
+        <div className="flex gap-5">
           <Image src={comingIcon} width={25} height={25} alt="haloo" />
           <h1>Coming Soon</h1>
         </div>
-        <div className="flex">
+        <div className="flex gap-5">
           <Image src={setingIcon} width={25} height={25} alt="haloo" />
           <h1>Settings</h1>
         </div>
