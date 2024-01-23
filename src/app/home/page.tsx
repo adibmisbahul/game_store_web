@@ -16,8 +16,10 @@ export default function Home() {
         <Navbar />
         <div className="maincontent">
           <div className="leftcontent">
-            <h1></h1>
-            <p></p>
+            <h1>Play Your Way </h1>
+            <h1> Experience Of</h1>
+            <h1> Gaming</h1>
+            <p>lorem ipsum </p>
             <button>Check Now</button>  
           </div>
           <div className="rightcontent">

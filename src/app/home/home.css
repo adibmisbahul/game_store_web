@@ -35,6 +35,15 @@
 .leftcontent{
     width: 50%;
     height: 55vh;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.leftcontent h1{
+    font-size: 2vw;
+    font-weight:700;
 }
 
 .karakter {
